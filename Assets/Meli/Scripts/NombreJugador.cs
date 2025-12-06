@@ -14,5 +14,4 @@ public class NombreJugador : MonoBehaviourPunCallbacks
         PlayerName.text = name; 
     }
 }
-
-//https://www.youtube.com/watch?v=FB402kunKSM
+    

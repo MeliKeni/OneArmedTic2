@@ -15,6 +15,8 @@ public class MenuLauncher : MonoBehaviourPunCallbacks
         if (InputField.text.Length > 0)
         {
             PhotonNetwork.NickName = InputField.text;
+
+            PlayerPrefs.SetString("PlayerName", InputField.text);
             buttonText.text = "Conectando...";
             PhotonNetwork.ConnectUsingSettings();
         }
@@ -22,6 +24,6 @@ public class MenuLauncher : MonoBehaviourPunCallbacks
 
     public override void OnConnectedToMaster()
     {
-        SceneManager.LoadScene("Tuto2");
+        SceneManager.LoadScene("SampleScene");
     }
 }

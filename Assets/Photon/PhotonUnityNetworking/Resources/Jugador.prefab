@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 1763179818487791151}
   - component: {fileID: 4412174787813372721}
   - component: {fileID: 1889739870164159048}
-  - component: {fileID: 6489067605883834693}
   m_Layer: 0
   m_Name: JugadorName
   m_TagString: Untagged
@@ -172,19 +171,6 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 4412174787813372721}
   m_maskType: 0
---- !u!114 &6489067605883834693
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3648328207635377548}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e205c90662aa8ca449bd484057ead38d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  PlayerName: {fileID: 1889739870164159048}
 --- !u!1 &8177098276890583876
 GameObject:
   m_ObjectHideFlags: 0
@@ -200,6 +186,7 @@ GameObject:
   - component: {fileID: 8077477323822311494}
   - component: {fileID: 9055438691524133606}
   - component: {fileID: 4049301535586283863}
+  - component: {fileID: 6910168024149369115}
   m_Layer: 0
   m_Name: Jugador
   m_TagString: Untagged
@@ -365,3 +352,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocidad: 5
+--- !u!114 &6910168024149369115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8177098276890583876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e205c90662aa8ca449bd484057ead38d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerName: {fileID: 1889739870164159048}
